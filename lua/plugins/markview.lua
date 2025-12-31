@@ -1,10 +1,10 @@
 return {
   {
-    "OXY2DEV/markview.nvim",
+    "oxy2dev/markview.nvim",
     lazy = false,
     opts = {
       preview = {
-        filetypes = { "markdown", "rmd", "Avante" },
+        filetypes = { "markdown", "rmd", "avante" },
         ignore_buftypes = {},
       },
     },
