@@ -4,8 +4,6 @@
 
 vim.g.maplocalleader = ","
 
-vim.opt.breakindent = true
-
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
 --  and `:help 'listchars'`
@@ -20,5 +18,8 @@ vim.opt.spelllang = { "en_us" }
 vim.opt.softtabstop = 2
 
 vim.opt.autoindent = true
+
+vim.opt.wrap = true
+vim.opt.breakindent = true
 
 -- vim: ts=2 sts=2 sw=2 et
