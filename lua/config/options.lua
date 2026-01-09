@@ -4,6 +4,8 @@
 
 vim.g.maplocalleader = ","
 
+vim.g.lazyvim_prettier_needs_config = true
+
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
 --  and `:help 'listchars'`
