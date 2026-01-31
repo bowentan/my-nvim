@@ -1,21 +1,25 @@
 return {
-  {
-    "yetone/avante.nvim",
-    opts = {
-      provider = "Poe",
-      providers = {
-        ["Poe"] = {
-          __inherited_from = "openai",
-          api_key_name = "AVANTE_POE_API_KEY",
-          endpoint = "https://api.poe.com/v1",
-          model = "Claude-Sonnet-4.5",
-          extra_request_body = {
-            extra_body = {
-              thinking_budget = 0,
-            },
-          },
-        },
-      },
-    },
-  },
+  -- {
+  --   "yetone/avante.nvim",
+  --   opts = {
+  --     mode = "legacy",
+  --     disabled_tools = { "rag_search", "python", "bash", "web_search", "fetch" },
+  --     provider = "Poe",
+  --     providers = {
+  --       ["Poe"] = {
+  --         __inherited_from = "openai",
+  --         api_key_name = "AVANTE_POE_API_KEY",
+  --         endpoint = "https://api.poe.com/v1",
+  --         model = "Claude-Sonnet-4.5",
+  --         extra_request_body = {
+  --           temperature = 0,
+  --           max_tokens = 1200,
+  --           extra_body = {
+  --             thinking_budget = 0,
+  --           },
+  --         },
+  --       },
+  --     },
+  --   },
+  -- },
 }

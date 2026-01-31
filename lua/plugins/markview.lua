@@ -4,7 +4,7 @@ return {
     lazy = false,
     opts = {
       preview = {
-        filetypes = { "markdown", "rmd", "avante" },
+        filetypes = { "markdown", "rmd", "avante", "opencode_output" },
         ignore_buftypes = {},
       },
     },
